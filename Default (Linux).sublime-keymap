@@ -1,0 +1,6 @@
+[
+    { "keys": ["alt+shift+k"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+shift+j"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["shift+alt+g"], "command": "find_all_under" }
+
+]
