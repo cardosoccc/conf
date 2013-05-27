@@ -5,3 +5,4 @@ then
     tmux attach-session -t 0 || tmux new-session -s 0
 exit
 fi
+PS1="\e[1;34m[\e[m\W\e[1;34m] \$\e[m "
