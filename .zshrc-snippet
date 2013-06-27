@@ -6,7 +6,7 @@ bindkey -M vicmd '^R' history-incremental-search-backward
 zle-keymap-select () {
     if [ $TERM = "screen-256color" ]; then
         if [ $KEYMAP = vicmd ]; then
-            gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape underline
+            gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape block
         else
             gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape ibeam
         fi
